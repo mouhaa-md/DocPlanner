@@ -1,0 +1,144 @@
+body{
+    font-family: sans-serif;
+    color: #252525;
+    max-width: 1500px;
+    margin: auto;
+}
+
+a{
+    color: #252525;
+    text-decoration: none;
+}
+
+.active-color{
+    color: #5dc6b0;
+}
+
+
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+
+}
+
+.introduction{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+    background-color: #5dc6b0 ;
+}
+
+.introduction-title{
+    color: #5dc6b0;
+}
+
+.introduction-text{
+    display: flex;
+}
+
+.introduction-paragraph{
+    margin: 10px;
+}
+
+.services{
+    display: flex;
+}
+
+.services-card-patients{
+    background-color: #5dc6b0;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    height: 200px;
+    flex-grow: 1;
+}
+
+
+.services-card-doctors{
+    background-color: #4239db;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    height: 200px;
+    flex-grow: 1;
+}
+
+
+.services-card-clinics{
+    background-color:#1b2734;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    height: 200px;
+    flex-grow: 1;
+}
+
+.services-card-select{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.services-card-image{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    bottom: 40px;
+    right: 0;
+
+}
+
+.docplanner-partenaires-list{
+    text-align: center;
+    padding: auto;
+    margin-top: 20px;
+
+    
+}
+
+.docplanner-partenaires-paragraph{
+    color: #38c3b1;
+    font-size: 40px;
+}
+
+.row{
+    display:flex ;
+    justify-content: right;
+    margin-bottom: 10px;
+    color: #cbcbcb;
+    font-size: 20px;
+
+}
+
+.row img{
+    margin: 0 10px;
+    max-width: 100px;
+    height: auto;
+    opacity: 0.7;
+}
+
+.row img:hover{
+    opacity: 1;
+}
+
+.images-cities{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+
+
